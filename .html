@@ -1,25 +1,9 @@
 <!DOCTYPE html>
  <html>
   <head>
-        <meta charset='utf-8'> 
-    </head>
-  <body>
-
-<div id="topbar">
-  <H1><font color="black">獵奇貓</font></H1>
-    <div>
-       <a href="https://www.google.com/calendar/" style="padding-left:4px;padding-right:4px" title="Google日曆">日曆</a>
-     <a href="https://translate.google.com.tw/" style="padding-left:4px;padding-right:4px" title="Google翻譯">翻譯</a>
-     <a href="https://www.youtube.com/" style="padding-left:4px;padding-right:4px">Youtube</a>
-     <a href="https://www.google.com.tw/" style="padding-left:4px;padding-right:4px" title="Google首頁">Google</a>
-    </div>
-</div>
-
-</body>
-  <body>
-   <div><img src="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xaf1/v/t1.0-9/10640993_534297743383162_3252301893148919056_n.jpg?oh=bdb4d6902bd1a21351f0634a4c1d6a7f&oe=5586CDDC&__gda__=1434601069_5ff50959c431876d9ceea5806d881e94"></div>
-
-    <style>
+    <meta charset='utf-8'> 
+  </head>
+   <style>
 #topbar { background-color:white; color:black; padding:10px; margin:15px; }
 </style>
 <style>
@@ -27,19 +11,55 @@ body {
     background-color: #d0e4fe;
 }
 h1 {
-    color: orange;
+    color: black;
     text-align: center;
 }
 p {
     font-family: "Times New Roman";
     font-size: 20px;
 }
+ .db_pd
+    {
+       padding-top: 5px;
+     padding-right: 10px;
+     padding-bottom: 10px;
+     padding-left: 10px;
+    }
 </style>
-</head>
-   <form action="text.html" method="post">
-<input type="submit" value="enter" onclick="self.location.href='./text.html'/><input type="reset" value="clear"/>
-</form>
-    <body> 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/edMPKKNxriA" frameborder="0" allowfullscreen></iframe>
-</body> 
-  </html>  
+        <body>
+
+          <div id="topbar">
+            <H1>獵奇貓</H1>
+              <div>
+                <a href="https://www.google.com/calendar/" style="padding-left:4px;padding-right:4px" title="Google日曆">日曆</a>
+                <a href="https://translate.google.com.tw/" style="padding-left:4px;padding-right:4px" title="Google翻譯">翻譯</a>
+                <a href="https://www.youtube.com/" style="padding-left:4px;padding-right:4px">Youtube</a>
+                <a href="https://www.google.com.tw/" style="padding-left:4px;padding-right:4px" title="Google首頁">Google</a>
+              </div>
+          </div>
+
+        </body>
+        <body>
+        <div><img src="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xaf1/v/t1.0-9/10640993_534297743383162_3252301893148919056_n.jpg?oh=bdb4d6902bd1a21351f0634a4c1d6a7f&oe=5586CDDC&__gda__=1434601069_5ff50959c431876d9ceea5806d881e94"></div>
+        <div> 
+          <iframe width="420" height="315" src="https://www.youtube.com/embed/edMPKKNxriA" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <form action="text.html" method="post">
+        <div><input type="submit" value="下一頁" onclick="self.location.href='./text.html'/><input type="reset" value="clear"/>
+        </form></div>
+         <div id="wall" class="block">
+                  <div class="title">
+                     <span>
+                        <H1>留言板</H1>
+                     </span>
+                  </div>
+          <div id="wall-content" class="db_pd">
+             <span id="message-title">
+           </span>
+           <textarea name="message-content" rows="4" cols="26"></textarea>
+           <br>
+           <input type="submit" value="留言">
+          </div>
+         </div>
+      </div>
+    </html>  
